@@ -1,0 +1,21 @@
+.grid {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.turn-highlight {
+    color: white;
+}
+
+.reset {
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 50px;
+}
